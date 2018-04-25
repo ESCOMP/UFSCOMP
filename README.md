@@ -6,4 +6,12 @@ This portal aims to reduce barriers to sharing code between research and operati
 
 ## Supported Applications
 
-- [CMEPS v0.1](https://github.com/ESCOMP/UFSCOMP/wiki/Milestone:-CMEPS-0.1) - Modular Ocean Model version 6 (MOM6) coupled with the Community Mediator for Earth Prediction Systems (CMEPS)
+The UFSCOMP repository supports multiple applications (or "apps") where an app is an assembly of external components, each referenced by a repository URL and a branch/tag. An app, therefore, is a convenient way to represent known configurations of components and can be easily shared. The top level app repository is *lightweight* because all information about the external components is stored in a single configuration file (`Externals.cfg`).
+
+*Each app is stored on a separate branch in the UFSCOMP repository.* Each app branch is prefixed with `app_`. The current app branches:
+- **app_mom6-cmeps** - Modular Ocean Model version 6 (MOM6) coupled with the Community Mediator for Earth Prediction Systems (CMEPS)
+- **app_cesm-cmeps** - Community Earth System Model (CESM) components coupled with the CMEPS Mediator
+
+## Milestones
+
+- [CMEPS v0.1](https://github.com/ESCOMP/UFSCOMP/wiki/Milestone:-CMEPS-0.1) - Initial validation of Modular Ocean Model version 6 (MOM6) coupled with the Community Mediator for Earth Prediction Systems (CMEPS)
