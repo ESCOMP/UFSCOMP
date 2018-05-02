@@ -1,6 +1,6 @@
 # UFSCOMP
 
-*This portal has been set up for exploratory purposes and does not contain any validated Unified Forecast System (UFS) codes at this time. The coupled codes it contains are early prototypes that are not official National Weather Service products. External model components that are referenced in the coupled codes contained here, such as MOM6, follow their own terms of use.*
+*This portal has been set up for exploratory purposes and does not contain any validated Unified Forecast System (UFS) codes at this time. The coupled codes it contains are early prototypes that are not official National Weather Service products. External model components that are referenced in the coupled codes contained here follow their own terms of use.*
 
 The **Unified Forecast System Community Portal (UFSCOMP)** is an entry point for community members interested in obtaining and running NOAA’s Unified Forecast System (UFS) for their own interests and experimentation. The UFS utilizes a set of forecast system software components to build a suite of targeted, predictive applications spanning spatial and temporal scales. It will include multiple Earth system model components (e.g. atmosphere, ocean, sea ice) and software to support a complete forecast workflow including data pre-processing, data assimilation, model coupling, ensemble and probabilistic processing, post-processing, and experiment management. *At this time, UFSCOMP is a prototype that includes only a small subset of the full UFS functionality.*
 
