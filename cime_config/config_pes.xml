@@ -77,7 +77,7 @@
     </mach>
   </grid>
   <grid name="a%1.9x2.5.+l%1.9x2.5.+oi%gx1" >
-    <mach name="cheyenne">
+    <mach name="any">
       <pes pesize="any" compset="CAM.+CLM.+CICE.+MOM.+">
 	<comment>about 12ypd expected</comment>
         <ntasks>
