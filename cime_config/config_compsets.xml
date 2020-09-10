@@ -38,21 +38,22 @@
 
   <!-- nuopc testing -->
   <compset>
-    <alias>s2s</alias>
-    <lname>FCST_ufsatm_SLND_CICE_MOM6_SROF_SGLC_SWAV</lname>
+    <alias>S2S</alias>
+    <lname>FCST_ufsatm%2017coupled_SLND_CICE_MOM6_SROF_SGLC_SWAV</lname>
   </compset>
-
-
 
   <entries>
     <entry id="RUN_STARTDATE">
       <values>
-        <value compset="1850_"     >0001-01-01</value>
-        <value compset="2000_"     >0001-01-01</value>
-        <value compset="HIST_"     >1850-01-01</value>
-        <value compset="5505_"     >1955-01-01</value>
-        <value compset="RCP[2468]_">2005-01-01</value>
-        <value compset="2013_"     >2013-01-01</value>
+        <!-- default value for testing -->
+        <value compset="FCST_ufsatm%2017">2016-10-03</value>
+      </values>
+    </entry>
+
+    <entry id="START_TOD">
+      <values>
+        <!-- default value for testing -->
+        <value compset="FCST_ufsatm%2017">0</value>
       </values>
     </entry>
   </entries>
