@@ -56,6 +56,21 @@
         <value compset="FCST_ufsatm%2017">0</value>
       </values>
     </entry>
+
+    <entry id="COUPLING_MODE">
+      <values>
+        <!-- default value for testing -->
+        <value compset="FCST_ufsatm%2017">nems_orig_active</value>
+      </values>
+    </entry>
+
+    <!--
+    <entry id="COMP_CLASSES">
+      <values>
+	<value compset="ufsatm.*_SLND_CICE.*_MOM6.*_SROF_SGLC_SWAV">CPL,ATM,OCN,ICE</value>
+      </values>
+    </entry>
+    -->
   </entries>
 
 </compsets>
