@@ -220,9 +220,8 @@ then rerun checkout_externals.
                 continue
             if item == SVN_UNVERSIONED:
                 continue
-            else:
-                is_dirty = True
-                break
+            is_dirty = True
+            break
         return is_dirty
 
     # ----------------------------------------------------------------
@@ -279,7 +278,6 @@ then rerun checkout_externals.
         if ignore_ancestry:
             cmd.append('--ignore-ancestry')
         cmd.append(url)
-
         if verbosity >= VERBOSITY_VERBOSE:
             printlog('    {0}'.format(' '.join(cmd)))
         execute_subprocess(cmd)
