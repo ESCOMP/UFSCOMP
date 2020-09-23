@@ -60,7 +60,7 @@
     <entry id="COUPLING_MODE">
       <values>
         <!-- default value for testing -->
-        <value compset="FCST_ufsatm%2017">nems_orig_active</value>
+        <value compset="FCST_ufsatm%2017">nems_orig</value>
       </values>
     </entry>
 
